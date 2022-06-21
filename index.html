@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Battleships</title>
+    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body>
+    <div class="gridParent">
+      <div class="corner div1">  </div>
+      <div class="title div2"> 1 </div>
+      <div class="title div3"> 2 </div>
+      <div class="title div4"> 3 </div>
+      <div class="title div5"> 4 </div>
+      <div class="title div6"> 5 </div>
+      <div class="title div7"> 6 </div>
+      <div class="title div8"> 7 </div>
+      <div class="title div9"> 8 </div>
+      <div class="title div10"> 9 </div>
+      <div class="title div11"> 10 </div>
+      <div class="title div12"> A </div>
+      <div class="item A1"> </div>
+      <div class="item A2"> </div>
+      <div class="item A3"> </div>
+      <div class="item A4"> </div>
+      <div class="item A5"> </div>
+      <div class="item A6"> </div>
+      <div class="item A7"> </div>
+      <div class="item A8"> </div>
+      <div class="item A9"> </div>
+      <div class="item A10"> </div>
+      <div class="title div23"> B </div>
+      <div class="item B1"> </div>
+      <div class="item B2"> </div>
+      <div class="item B3"> </div>
+      <div class="item B4"> </div>
+      <div class="item B5"> </div>
+      <div class="item B6"> </div>
+      <div class="item B7"> </div>
+      <div class="item B8"> </div>
+      <div class="item B9"> </div>
+      <div class="item B10"> </div>
+      <div class="title div34"> C </div>
+      <div class="item C1"> </div>
+      <div class="item C2"> </div>
+      <div class="item C3"> </div>
+      <div class="item C4"> </div>
+      <div class="item C5"> </div>
+      <div class="item C6"> </div>
+      <div class="item C7"> </div>
+      <div class="item C8"> </div>
+      <div class="item C9"> </div>
+      <div class="item C10"> </div>
+      <div class="title div45"> D </div>
+      <div class="item D1"> </div>
+      <div class="item D2"> </div>
+      <div class="item D3"> </div>
+      <div class="item D4"> </div>
+      <div class="item D5"> </div>
+      <div class="item D6"> </div>
+      <div class="item D7"> </div>
+      <div class="item D8"> </div>
+      <div class="item D9"> </div>
+      <div class="item D10"> </div>
+      <div class="title div56"> E </div>
+      <div class="item E1"> </div>
+      <div class="item E2"> </div>
+      <div class="item E3"> </div>
+      <div class="item E4"> </div>
+      <div class="item E5"> </div>
+      <div class="item E6"> </div>
+      <div class="item E7"> </div>
+      <div class="item E8"> </div>
+      <div class="item E9"> </div>
+      <div class="item E10"> </div>
+      <div class="title div67"> F </div>
+      <div class="item F1"> </div>
+      <div class="item F2"> </div>
+      <div class="item F3"> </div>
+      <div class="item F4"> </div>
+      <div class="item F5"> </div>
+      <div class="item F6"> </div>
+      <div class="item F7"> </div>
+      <div class="item F8"> </div>
+      <div class="item F9"> </div>
+      <div class="item F10"> </div>
+      <div class="title div78"> G </div>
+      <div class="item G1"> </div>
+      <div class="item G2"> </div>
+      <div class="item G3"> </div>
+      <div class="item G4"> </div>
+      <div class="item G5"> </div>
+      <div class="item G6"> </div>
+      <div class="item G7"> </div>
+      <div class="item G8"> </div>
+      <div class="item G9"> </div>
+      <div class="item G10"> </div>
+      <div class="title div89"> H </div>
+      <div class="item H1"> </div>
+      <div class="item H2"> </div>
+      <div class="item H3"> </div>
+      <div class="item H4"> </div>
+      <div class="item H5"> </div>
+      <div class="item H6"> </div>
+      <div class="item H7"> </div>
+      <div class="item H8"> </div>
+      <div class="item H9"> </div>
+      <div class="item H10"> </div>
+      <div class="title div100"> I </div>
+      <div class="item I1"> </div>
+      <div class="item I2"> </div>
+      <div class="item I3"> </div>
+      <div class="item I4"> </div>
+      <div class="item I5"> </div>
+      <div class="item I6"> </div>
+      <div class="item I7"> </div>
+      <div class="item I8"> </div>
+      <div class="item I9"> </div>
+      <div class="item I10"> </div>
+      <div class="title div111"> J </div>
+      <div class="item J1"> </div>
+      <div class="item J2"> </div>
+      <div class="item J3"> </div>
+      <div class="item J4"> </div>
+      <div class="item J5"> </div>
+      <div class="item J6"> </div>
+      <div class="item J7"> </div>
+      <div class="item J8"> </div>
+      <div class="item J9"> </div>
+      <div class="item J10"> </div>
+      </div>
+    </div>
+
+    <div id="input">
+      <form>
+        <label for="fname">Type your guess:</label>
+        <input id="guess" name="userGuess" type="text" maxlength="3" oninput="this.value = this.value.toUpperCase()">
+        <button class="FireButton" type="button" onclick="targetTile()" >Fire!</button>
+      </form>
+    </div>
+
+    </body>
+
+  </body>
+</html>
